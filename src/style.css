@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:wght@300&display=swap');
+
+
+/* CSS Reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+/* Header Section */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #1565C0;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0; 
+    background: lightblue;
+    display: inline-block;
+    transition: all .5s;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+.logo {
+    border: 1px solid;
+    border-radius: 3px;
+    background: #E91E63;
+}
+
+section {
+    display: flex;
+    background-color: ;
+    /* border: 1px solid red; */
+    /* So I calculated the height of the header minus the main section*/
+    /* height: 100vh; */
+    height: calc(80vh - 100px);
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 1rem; */
+}
+
+.hero-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.content-left {
+    width: 50%;
+}
+
+section h1 {
+    font-size: 2rem;
+    color: #1565C0;
+    text-decoration: uppercase;
+}
+
+section h1 span {
+    color: #E91E63;
+}
+
+section p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    line-height: 1rem;
+    margin: 30px 0;
+
+}
+
+
+/* Main Section */
+main {
+    /* height: ; */
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: row; */ 
+    /* width: 100%; */
+}
+
+
+
+main article img {
+    width: 30%;
+}
+
+
+main article {
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
+    align-items: center; 
+
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 2rem;
+    margin-top: 1rem;
+}
+
+main article h3 { 
+    align-items: center;   
+}
+/* main article p::before {
+    content: "\A";
+    white-space: pre;
+    display: block;
+  } */
+
+main article p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1rem;
+    margin-top: 3rem;
+    
+}
+
