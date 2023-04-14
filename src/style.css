@@ -385,8 +385,8 @@ input[type=submit]:hover {
     section {
         /* display: flex; */
         flex-direction: column-reverse;
-        margin-top: 3rem;
-        margin-botom: 3rem;
+         margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     main {
@@ -409,12 +409,12 @@ input[type=submit]:hover {
 
     header {
         flex-direction: row;
-        
+
     } 
-    section {
+     section {
         display: flex;
         flex-direction: row;
-    }
+    } 
 
     main {
         display: flex;
@@ -422,9 +422,9 @@ input[type=submit]:hover {
         align-items: center;
     }
 
-    .card_section {
+     .card_section {
         display: flex;
         flex-direction: row;
         
-    }
+     }
 } 
