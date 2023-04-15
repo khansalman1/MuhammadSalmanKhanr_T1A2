@@ -371,7 +371,6 @@ input[type=submit]:hover {
     width: 100%;
     height: 300px;
 }
-
 /* Media Query*/
 
 @media only screen and (min-width: 400px) {
@@ -428,3 +427,7 @@ input[type=submit]:hover {
         
      }
 } 
+
+.site_map {
+    color: white;
+}
